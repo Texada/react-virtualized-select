@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
-import { Creatable } from 'react-select'
+import { Creatable } from '@texada/react-select'
 import 'whatwg-fetch'
 import VirtualizedSelect from './VirtualizedSelect'
 import styles from './VirtualizedSelect.example.css'

@@ -1,5 +1,5 @@
 {
-  "name": "react-virtualized-select",
+  "name": "@texada/react-virtualized-select",
   "version": "3.1.3",
   "description": "Drop-down menu for React with windowing to support large numbers of options.",
   "main": "dist/commonjs/index.js",
@@ -105,7 +105,6 @@
     "react": "^15.3.0",
     "react-addons-test-utils": "^15.3.0",
     "react-dom": "^15.3.0",
-    "react-select": "^1.0.0",
     "react-transform-catch-errors": "^1.0.2",
     "react-transform-hmr": "^1.0.2",
     "react-virtualized": "^9.0.0",
@@ -119,13 +118,14 @@
     "whatwg-fetch": "^2.0.1"
   },
   "dependencies": {
+    "@texada/react-select": "^1.3.1",
     "babel-runtime": "^6.11.6",
     "prop-types": "^15.5.8",
-    "react-select": "^1.0.0-rc.2",
     "react-virtualized": "^9.0.0"
   },
   "peerDependencies": {
-    "react": "^15.3.0 || ^16.0.0-alpha",
-    "react-dom": "^15.3.0 || ^16.0.0-alpha"
+    "react": "^0.14.9 || ^15.3.0 || ^16.0.0-rc || ^16.0 || ^17.0",
+    "react-dom": "^0.14.9 || ^15.3.0 || ^16.0.0-rc || ^16.0 || ^17.0",
+    "@texada/react-select": "^1.3.1"
   }
 }
